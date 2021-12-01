@@ -9,10 +9,8 @@ from rest_framework import status
 class RecordListView(APIView):
 
     def get (self, request):
-        records = Record.objects.all()
-        print("records ->", records)
-        serialized_records = RecordSerializer(records, many=True)
-        print("serialized listeings ->", serialized_records.data)
+        records = Record.objects.all()       
+        serialized_records = RecordSerializer(records, many=True)        
         return Response(serialized_records.data, status=status.HTTP_200_OK)
 
 
