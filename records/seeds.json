@@ -1,0 +1,67 @@
+[
+{
+  "model": "records.record",
+  "pk": 1,
+  "fields": {
+    "artist": "TEST2",
+    "title": "TEST2",
+    "label": "TEST2",
+    "catalog_number": "TEST2",
+    "description": "TEST2",
+    "image": "TEST2",
+    "video": "TEST2"
+  }
+},
+{
+  "model": "records.record",
+  "pk": 4,
+  "fields": {
+    "artist": "TEST5",
+    "title": "TEST2",
+    "label": "TEST2",
+    "catalog_number": "TEST2",
+    "description": "TEST2",
+    "image": "TEST2",
+    "video": "TEST2"
+  }
+},
+{
+  "model": "records.record",
+  "pk": 5,
+  "fields": {
+    "artist": "TEST5",
+    "title": "TEST2",
+    "label": "TEST2",
+    "catalog_number": "TEST2",
+    "description": "TEST2",
+    "image": "TEST2",
+    "video": "TEST2"
+  }
+},
+{
+  "model": "records.record",
+  "pk": 6,
+  "fields": {
+    "artist": "TEST5",
+    "title": "T",
+    "label": "TEST2",
+    "catalog_number": "TEST2",
+    "description": "TEST2",
+    "image": "TEST2",
+    "video": "TEST2"
+  }
+},
+{
+  "model": "records.record",
+  "pk": 7,
+  "fields": {
+    "artist": "TEST5",
+    "title": "T",
+    "label": "TEST2",
+    "catalog_number": "TEST2",
+    "description": "TEST2",
+    "image": "TEST2",
+    "video": "TEST2"
+  }
+}
+]

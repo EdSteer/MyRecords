@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'records',
+    'reviews',
+    'items',
+    'jwt_auth'
 ]
 
 MIDDLEWARE = [
