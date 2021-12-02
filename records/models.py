@@ -5,6 +5,7 @@ class Record(models.Model):
     title = models.CharField(max_length=100, default=None)
     label = models.CharField(max_length=100, default=None)
     catalog_number = models.CharField(max_length=100, blank=True)
+    description = models.CharField(max_length=500, blank=True)
     image = models.CharField(max_length=500, blank=True)
     video = models.CharField(max_length=500, blank=True)
 

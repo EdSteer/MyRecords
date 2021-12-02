@@ -12,6 +12,7 @@ class RecordListView(APIView):
     def post(self, request):
         re = RecordSerializer(data = request.data)
         if re.is_valid():
+            re.save()
             return Response(re.data, status=status.HTTP_201_CREATED)
         else:
             return Response(re.errors, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
