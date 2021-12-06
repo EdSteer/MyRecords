@@ -63,5 +63,395 @@
     "image": "TEST2",
     "video": "TEST2"
   }
+},
+{
+  "model": "records.record",
+  "pk": 8,
+  "fields": {
+    "artist": "Zomby X Burial",
+    "title": "Sweetz",
+    "label": "Hyperdub",
+    "catalog_number": "HDB103",
+    "description": "10\", S/Sided",
+    "image": "https://img.discogs.com/5hZGEf97AcS_WuViZkAO9zYMTiA=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8823663-1470326208-4504.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 9,
+  "fields": {
+    "artist": "Zed Bias",
+    "title": "Boss",
+    "label": "Swamp 81",
+    "catalog_number": "SWAMP:LP002",
+    "description": "4x12\", Album",
+    "image": "https://img.discogs.com/NciJtqdlrucBExrABPOssrjssbM=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5132481-1385385137-7222.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 10,
+  "fields": {
+    "artist": "Yussef Kamaal",
+    "title": "Black Focus",
+    "label": "Brownswood Recordings",
+    "catalog_number": "BWOOD0157LP",
+    "description": "LP, Album",
+    "image": "https://img.discogs.com/RW3_Cazad16aChLhgQzfPeFezQ8=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9072898-1511654439-9824.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 11,
+  "fields": {
+    "artist": "Yesterdays New Quintet",
+    "title": "Stevie",
+    "label": "Stones Throw Records",
+    "catalog_number": "STH2086",
+    "description": "2xLP, Album",
+    "image": "https://img.discogs.com/cRP11jWy2ucFsZI2IrF9mqnWrBQ=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-263065-1227995175.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 12,
+  "fields": {
+    "artist": "XTC",
+    "title": "Making Plans For Nigel",
+    "label": "Virgin",
+    "catalog_number": "VS 282",
+    "description": "7\", Single",
+    "image": "https://img.discogs.com/1YT76RC7qTSS5_9_MyZrV3wDCHk=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5490972-1394742321-7447.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 13,
+  "fields": {
+    "artist": "Wun Two",
+    "title": "Baker's Dozen",
+    "label": "Fat Beats",
+    "catalog_number": "BDZ003",
+    "description": "LP, Album, Ltd",
+    "image": "https://img.discogs.com/fEUDaaw0DYzYD2w2XsGsjd4ynL0=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9007224-1473164456-2966.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 14,
+  "fields": {
+    "artist": "Wu-Tang Clan",
+    "title": "Enter The Wu-Tang (36 Chambers)",
+    "label": "RCA, Loud Records, Wu-Tang Records",
+    "catalog_number": "07863 66336-1",
+    "description": "LP, Album",
+    "image": "https://img.discogs.com/stMM7xPQ7FRn31mpzZchDpzrxhk=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-153749-1185134135.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 15,
+  "fields": {
+    "artist": "Wots My Code / Love Nation & Ad Man",
+    "title": "Dubplate / Jungle Jingle",
+    "label": "Just Another Bootleg",
+    "catalog_number": "JAB 5",
+    "description": "12\", W/Lbl, Sti",
+    "image": "https://img.discogs.com/ijofbrCQ6SugaPqCPoO07JqtO_Q=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-251720-1330193405.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 16,
+  "fields": {
+    "artist": "Viktor Vaughn",
+    "title": "Vaudeville Villain",
+    "label": "Sound-Ink, Traffic Entertainment Group",
+    "catalog_number": "TEG 2409 / SIK 012",
+    "description": "2xLP, Album",
+    "image": "https://img.discogs.com/2BDQMkwQ4D6vSozdCzWBaRASZgA=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-230565-1332483001.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 17,
+  "fields": {
+    "artist": "Viers",
+    "title": "Freesia = フリージア",
+    "label": "Church",
+    "catalog_number": "CHURCH 006",
+    "description": "",
+    "image": "https://img.discogs.com/fzqHdBTsgdFfKGlvJf-vp-DhTCc=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7577400-1444810579-2863.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 18,
+  "fields": {
+    "artist": "Universal Soldiers",
+    "title": "Heavyweight Product",
+    "label": "Tongue Tied Records",
+    "catalog_number": "TT 04",
+    "description": "12\", Single",
+    "image": "https://img.discogs.com/SZR74y150j0TeS5ZqBz7LXv-tHs=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1353758-1212178362.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 19,
+  "fields": {
+    "artist": "UNKLE",
+    "title": "The Time Has Come E.P.",
+    "label": "Mo Wax",
+    "catalog_number": "MW028",
+    "description": "2x12\", EP, Ltd, Pic",
+    "image": "https://img.discogs.com/wDT3L0KSMndAv3EfonMYdNqTntI=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-942452-1287811824.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 20,
+  "fields": {
+    "artist": "Tortoise",
+    "title": "Djed (Remixes)",
+    "label": "City Slang",
+    "catalog_number": "SHELL 001",
+    "description": "12\", Ltd",
+    "image": "https://img.discogs.com/aCsB07lY-orUdaYZcPDeVOuAHkM=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-243104-1634414810-6855.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 21,
+  "fields": {
+    "artist": "The Pharcyde",
+    "title": "Ya Mama",
+    "label": "Delicious Vinyl, Atlantic",
+    "catalog_number": "7567 95986 0, a8342t",
+    "description": "12\"",
+    "image": "https://img.discogs.com/tujYSuSSXyC1y09YK1nogUD3TOg=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-162149-1480970719-2203.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 22,
+  "fields": {
+    "artist": "The Genius / GZA",
+    "title": "Liquid Swords",
+    "label": "Geffen Records (2)",
+    "catalog_number": "GN301",
+    "description": "2xLP, Album, Unofficial",
+    "image": "https://img.discogs.com/d7KghtIBxWWN7KcIhBsjmoQHX9g=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-158798-1158147180.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 23,
+  "fields": {
+    "artist": "The Abyssinians",
+    "title": "Satta",
+    "label": "Azul",
+    "catalog_number": "AZ. 2000",
+    "description": "LP, Album",
+    "image": "https://img.discogs.com/hs3h-HXm8B36pgLkSkGrMhDVcX0=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-686826-1550541309-8130.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 24,
+  "fields": {
+    "artist": "Task Force",
+    "title": "Voice Of The Great Outdoors EP",
+    "label": "Low Life Records",
+    "catalog_number": "LOW10",
+    "description": "12\", EP",
+    "image": "https://img.discogs.com/BRRkdKyyWwjm8dto1hqhvwWG8gI=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-226703-1169515081.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 25,
+  "fields": {
+    "artist": "Talking Heads",
+    "title": "Once In A Lifetime",
+    "label": "Sire",
+    "catalog_number": "SIR 4048",
+    "description": "7\", Single",
+    "image": "https://img.discogs.com/cLlhna-ymGqtGp73YtwMQQ5PwQI=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-556555-1193650829.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 26,
+  "fields": {
+    "artist": "Super Furry Animals",
+    "title": "The Man Don't Give A Fuck",
+    "label": "Epic",
+    "catalog_number": "6753046",
+    "description": "12\", S/Sided, Single, Etch, Ltd, Num",
+    "image": "https://img.discogs.com/CaT69gH0zbtH6l9W8fkfbJcgG70=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1279323-1467413104-3004.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 27,
+  "fields": {
+    "artist": "Skream",
+    "title": "Midnight Request Line / I",
+    "label": "Tempa",
+    "catalog_number": "Tempa.014",
+    "description": "12\"",
+    "image": "https://img.discogs.com/zfgf7phfD04SO1lvY0dSZfx7P4o=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-561478-1223240281.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 28,
+  "fields": {
+    "artist": "Shut Up & Dance",
+    "title": "Twenty Pounds To Get In",
+    "label": "Shut Up And Dance Records",
+    "catalog_number": "SUAD 3",
+    "description": "12\", Single",
+    "image": "https://img.discogs.com/4ej4MAKvT3yK-JooFt-2Hr2JXrA=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-70413-1316431306.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 29,
+  "fields": {
+    "artist": "Rustie",
+    "title": "Bad Science",
+    "label": "Wireblock",
+    "catalog_number": "WB006",
+    "description": "12\", EP, Ltd",
+    "image": "https://img.discogs.com/jXOJQRxz6aNoZTMDsvwhfEgxGro=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1887788-1294160552.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 30,
+  "fields": {
+    "artist": "Roots Manuva",
+    "title": "Brand New Second Hand",
+    "label": "Big Dada Recordings",
+    "catalog_number": "BD010",
+    "description": "2xLP, Album",
+    "image": "https://img.discogs.com/86pbz6HfpWaN1Gx2PrYiMaVx5kc=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-15600-1367754108-6592.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 31,
+  "fields": {
+    "artist": "Rob Dougan",
+    "title": "Clubbed To Death #1",
+    "label": "Mo Wax",
+    "catalog_number": "MW037",
+    "description": "12\"",
+    "image": "https://img.discogs.com/x_g8I_S5lBJIG_BYhz3LVWeSC-w=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-3468-1225877501.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 32,
+  "fields": {
+    "artist": "Rhythm & Sound",
+    "title": "No Partial",
+    "label": "PK",
+    "catalog_number": "PK 6",
+    "description": "10\", S/Sided, RE, W/Lbl, Sta",
+    "image": "https://img.discogs.com/q0SR3qXr_4kSF4yYc2Dz3xq1Cfc=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2181112-1350472208-5294.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 33,
+  "fields": {
+    "artist": "Quasimoto",
+    "title": "The Further Adventures Of Lord Quas",
+    "label": "[PIAS] Recordings",
+    "catalog_number": "PIASX055DLP",
+    "description": "2xLP, Album",
+    "image": "https://img.discogs.com/HvS84UmkHQZrmFAK1-0Bh4wBKE0=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-812941-1167866836.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 34,
+  "fields": {
+    "artist": "Quarta330 / Kode9",
+    "title": "Sunset Dub / 9 Samurai [Quarta 330 Rmx]",
+    "label": "Hyperdub",
+    "catalog_number": "HDB007",
+    "description": "12\"",
+    "image": "https://img.discogs.com/dV2w1jj8a_M_mXfIPy74wC8B3QM=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1119712-1196879144.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 35,
+  "fields": {
+    "artist": "Public Enemy",
+    "title": "Public Enemy #1",
+    "label": "Def Jam Recordings",
+    "catalog_number": "44-06719",
+    "description": "12\"",
+    "image": "https://img.discogs.com/QKeRknMEsOW9sEeQafHyH5fd64k=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-179049-1619656329-1511.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 36,
+  "fields": {
+    "artist": "Prince Paul",
+    "title": "Politics Of The Business",
+    "label": "Antidote",
+    "catalog_number": "ANTDV104",
+    "description": "2xLP + 7\", Ltd + Album",
+    "image": "https://img.discogs.com/2QpO1OaAKwgpcSfKRF3Jrqfel1c=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-863757-1407070959-3700.jpeg.jpg",
+    "video": ""
+  }
+},
+{
+  "model": "records.record",
+  "pk": 37,
+  "fields": {
+    "artist": "Photek",
+    "title": "Natural Born Killa EP",
+    "label": "Metalheadz",
+    "catalog_number": "MET 008",
+    "description": "12\", EP, Promo",
+    "image": "https://img.discogs.com/t3xyXmA0BueFL5FKkiWCy4QJZiE=/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1152897-1196422019.png.jpg",
+    "video": ""
+  }
 }
 ]
