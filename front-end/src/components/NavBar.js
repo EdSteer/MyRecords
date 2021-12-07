@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
 
   return (
-    <nav className="navbar is-dark">
+    <nav className="navbar is-transparent">
       <div className="container">
         <div className="navbar-brand">
           <span role="img" aria-label="logo" className="title">
@@ -17,8 +17,8 @@ const NavBar = () => {
           </div>
         </div>
         <div className="navbar-end">
-          <div className="navbar-item"><Link className="has-text-white" to="/register">Register</Link></div>
-          <div className="navbar-item"><Link className="has-text-white" to="/login">Login</Link></div>
+          <div className="navbar-item"><Link className="has-text-black" to="/register">Register</Link></div>
+          <div className="navbar-item"><Link className="has-text-black" to="/login">Login</Link></div>
           
         </div>
         

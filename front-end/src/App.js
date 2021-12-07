@@ -10,13 +10,13 @@ import Login from './components/Login'
 const App = () => {
   return (
     <Router>
-      <NavBar />
+      <NavBar/>
       <Routes>
-        <Route exact path="/" element={<Home/>}></Route>
-        <Route exact path="/records" element={<RecordIndex/>}></Route>
+        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/records" element={<RecordIndex/>}/>
         <Route exact path="/records/:id" element={<RecordShow/>}/>
-        <Route exact path="/register" component={Register}/>
-        <Route exact path="/login" component={Login}/>
+        <Route exact path="/register" element={<Register/>}/>
+        <Route exact path="/login" element={<Login/>}/>
 
         
       </Routes>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom'
 
 function Login() {
   const navigate = useNavigate()
+  const [error, setError] = useState(false)
   const [formData, setFormData] = React.useState({
     email: '',
     password: '',
@@ -13,13 +14,20 @@ function Login() {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
+
+  const setTokenToLocalStorage = (token) => {
+    window.localStorage.setItem('token', token)
+  }
+
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      await axios.post('/api/login', formData)
-      navigate('/')
-    } catch (e) {
-      console.log(e.response.data)
+      const { data } = await axios.post('/api/login/', formData)
+      setTokenToLocalStorage(data.token)
+      navigate.push('/api/records/')
+    } catch (err) {
+      
+      setError(true)
     }
 
     console.log('Form has been submitted')
@@ -29,44 +37,37 @@ function Login() {
     <section className="section">
       <div className="container">
         <div className="columns">
-          <form
-            className="column is-half is-offset-one-quarter"
-            onSubmit={handleSubmit}
-          >
+          <form className="box column is-half is-offset-one-quarter" onSubmit={handleSubmit}>
             <div className="field">
-              <label className="label" htmlFor="email">
-                Email
-              </label>
+              <label className="label">Email</label>
               <div className="control">
                 <input
-                  className="input"
-                  name="email"
-                  id="email"
-                  onChange={handleChange}
+                  className={`input ${error ? 'is-danger' : ''}`}
                   placeholder="Email"
+                  onChange={handleChange}
+                  name="email"
+                  value={formData.email}
+                 
                 />
               </div>
             </div>
             <div className="field">
-              <label className="label" htmlFor="password">
-                Password
-              </label>
+              <label className="label">Password</label>
               <div className="control">
                 <input
-                  className="input"
-                  name="password"
-                  id="password"
                   type="password"
-                  onChange={handleChange}
+                  className={`input ${error ? 'is-danger' : ''}`}
                   placeholder="Password"
+                  onChange={handleChange}
+                  name="password"
+                  value={formData.password}
+      
                 />
               </div>
+              {error && <p className="help is-danger">Sorry, your username or password are incorrect</p>}
             </div>
-
             <div className="field">
-              <button type="submit" className="button is-fullwidth is-warning">
-                Login
-              </button>
+              <button type="submit" className="button is-fullwidth is-warning">Log Me In!</button>
             </div>
           </form>
         </div>

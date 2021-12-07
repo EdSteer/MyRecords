@@ -2,12 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 // why is the link not working???? I can't get anything to show in console log either!!!!
 
-const RecordCard = ({ pk, artist, title, image }) => {
+const RecordCard = ({ id, artist, title, image }) => {
   // console.log(_id)
 
   return (
-    <div key={pk} className="column is-one-quarter-desktop is-one-third-tablet">
-      <Link to={`/records/${pk}`}>
+    <div key={id} className="column is-one-quarter-desktop is-one-third-tablet is-full-mobile">
+      <Link to={`/records/${id}`}>
         <div className="card">
           <div className="card-header">
             <div className="card-header-title">{artist}</div>
