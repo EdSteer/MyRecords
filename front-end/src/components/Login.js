@@ -22,9 +22,11 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      const { data } = await axios.post('/api/login/', formData)
+      const { data } = await axios.post('/api/auth/login/', formData)
       setTokenToLocalStorage(data.token)
-      navigate.push('/api/records/')
+      console.log('token')
+      navigate('/records')
+      console.log('where')
     } catch (err) {
       
       setError(true)

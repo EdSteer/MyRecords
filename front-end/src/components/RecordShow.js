@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
-// import NavBar from './components/NavBar'
+import NavBar from './NavBar'
 
 
 const RecordShow = () => {
@@ -29,11 +29,12 @@ const RecordShow = () => {
   if (!record) return null
   return (
     <>
+      <NavBar/>
       <section className="section">
         <div className="container">
           
           <div>
-            <h2 className="titlehas-text-centered">{record.artist}</h2>
+            <h3 className="title-has-text-centered is-size-1" id="artist">{record.artist}</h3>
             <hr />
             <div className="columns">
               <div className="column is-half">
@@ -42,23 +43,23 @@ const RecordShow = () => {
                 </figure>
               </div>
               <div className="column is-half">
-                <h4 className="title is-4">Title</h4>
-                <p>{record.title}</p>
+                <h3 className="title is-4">Title:</h3>
+                <strong>{record.title}</strong>
                 <hr />
-                <h4 className="title is-4">Label</h4>
+                <h3 className="title is-4">Label:</h3>
                 <hr />
-                <p>{record.label}</p>
+                <strong>{record.label}</strong>
                 <hr />
-                <h4 className="title is-4">Format</h4>
+                <h3 className="title is-4">Format:</h3>
                 <hr />
-                <p>{record.description}</p>
+                <strong>{record.description}</strong>
                 <hr />
               </div>
             </div>
           </div>
           : 
           <h2 className="title has-text-centered">
-            {hasError ? 'Oh something went wrong ⚠️' : '...loading  '}
+            {hasError ? 'Oh something went wrong ⚠️' : ''}
           </h2>
           
         </div>

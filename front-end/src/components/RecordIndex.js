@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import RecordCard from './RecordCard'
-// import NavBar from './components/NavBar'
+import NavBar from './NavBar'
 
 
 const RecordIndex = () => {
@@ -19,6 +19,17 @@ const RecordIndex = () => {
         setHasError(true)
       }
     }
+     
+    // const sortedRecords = recordsArray.sort((a, b) => {
+    //   if (a.strRecord > b.strRecord) {
+    //     return 1
+    //   } else if (b.strRecord > a.strRecord) {
+    //     return -1
+    //   } else {
+    //     return 0
+    //   }
+    // })
+    // setRecords(sortedRecords, recordsArray)
     
     getData()
     
@@ -36,6 +47,7 @@ const RecordIndex = () => {
 
   return (
     <>
+      <NavBar/>
       <section className="section">
         <div className="container">
           {records.length ? 

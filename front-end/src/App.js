@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import NavBar from './components/NavBar'
+// import NavBar from './components/NavBar'
 import Home from './components/Home'
 import RecordIndex from './components/RecordIndex'
 import RecordShow from './components/RecordShow'
@@ -10,7 +10,7 @@ import Login from './components/Login'
 const App = () => {
   return (
     <Router>
-      <NavBar/>
+      {/* <NavBar/> */}
       <Routes>
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/records" element={<RecordIndex/>}/>

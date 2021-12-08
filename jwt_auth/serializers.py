@@ -11,7 +11,7 @@ class UserSerializer(serializers.ModelSerializer):
     password_confirmation = serializers.CharField(write_only=True)
 
     def validate(self, data):
-
+        print('serializzzz')
         password = data.pop('password')
         password_confirmation = data.pop('password_confirmation')
 
@@ -24,6 +24,7 @@ class UserSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError({'password': err.messages})
 
         data['password'] = make_password(password)
+        print('isitworking')
         return data
 
     class Meta:

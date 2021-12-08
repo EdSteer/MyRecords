@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 import logo from '../components/assets/MyRecordslogo.png'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const NavBar = () => {
 
@@ -9,12 +9,12 @@ const NavBar = () => {
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" href="./">
-          <img src={ logo } width="300" height="200"/>
+          <img className="logo" src={ logo }/>
         </a>
 
         <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
+          <span aria-hidden="true">add</span>
+          <span aria-hidden="true">logout</span>
           <span aria-hidden="true"></span>
         </a>
       </div>
@@ -23,43 +23,28 @@ const NavBar = () => {
         <div className="navbar-start">
           
 
-          <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link">
-              menu
-            </a>
-
-            <div className="navbar-dropdown">
-              <a className="navbar-item">
-                Add
-              </a>
-              <a className="navbar-item">
-                Delete
-              </a>
-              <a className="navbar-item">
-                Update
-              </a>
-              <hr className="navbar-divider"></hr>
+          
+                        
+          <hr className="navbar-divider"></hr>
               
-            </div>
-          </div>
-        </div>
-
-        <div className="navbar-end">
-          <div className="navbar-item">
-            <div className="buttons">
-              <a className="button is-primary">
-                <Link className="has-text-white" to="/register">Register</Link>
-              </a>
-              <a className="button is-light">
-                <Link className="has-text-black" to="/login">login</Link>
-              </a>
-              <a className="navbar-item">
-              logout
-              </a>
-            </div>
-          </div>
+          
         </div>
       </div>
+
+      <div className="navbar-end">
+        
+        <nav className="navbar" role="navigation">
+          <a className="navbar-item">
+            add
+          </a>
+         
+          
+        </nav>
+        
+        
+      </div>
+      
+      
     </nav>
   )
 }
