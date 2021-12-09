@@ -5,8 +5,9 @@
 }
 
 .hero-body{
-  background: url('../components/assets/HomeBackground.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.45)), url('../components/assets/HomeBackground.jpg');
   padding: 0 !important;
+  background-size: cover;
 }
 
 .logo{
@@ -14,7 +15,18 @@
   height: 100px;
 }
 
-// #artist{
-//   font-size: 1.5rem;
-//   font-weight: 400;
-// }
+#navbar{
+  justify-content: space-evenly;
+}
+
+.search-box{
+  margin-top: 35px;
+  margin-left: 5rem;
+}
+
+.titlewords{
+  margin-top: 100px;
+  margin-left: 250px;
+  color: white;
+  font-size: large;
+}

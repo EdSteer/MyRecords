@@ -33,7 +33,7 @@ const Register = () => {
       console.log('formData->', formData)
       await axios.post('/api/auth/register/', formData)
       
-      history.push('/login')
+      navigate('/login')
     } catch (err) {
       setErrors(err.response.data.errors)
     }
