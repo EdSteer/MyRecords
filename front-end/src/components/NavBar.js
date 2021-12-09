@@ -20,7 +20,7 @@ const NavBar = () => {
           </a>
         </div>
 
-        <div id="navbarBasicExample" className="navbar-menu">
+        <div id="navbarBasicExample is-justify-content-space-around" className="navbar-menu">
           <div className="navbar-start">
             <div className="navbar">
               <div className="search-box">
@@ -32,11 +32,13 @@ const NavBar = () => {
                 </div>
               </div>            
             </div>
-            <nav className="navbar ml-6" role="navigation">
-              <a className="navbar-item" href="/Add">
+            <nav className="navbar" role="navigation">
+              <a className="navbar-item" id="add" href="/add">
                 add
               </a>
-            
+              <a className="navbar-item" id="delete" href="/Add">
+                delete
+              </a>
               
             </nav>
                 

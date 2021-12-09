@@ -43,30 +43,30 @@ const AddRecord = () => {
 
   
   
-  try {
-    const { data } = axios.post('/api/records', newRecord, {
-      headers: { Authorization: `Bearer ${getTokenFromLocalStorage()}` },
-    }
-    )
-    const newRecordId = data._id
-    Navigate(`/records/${newRecordId}`)
-  } catch (err){
-    console.log(err.response.data.errors)
-    setErrors(err.response.data.errors)
-  }
+  // try {
+  //   const { data } = axios.post('/api/records/', newRecord, {
+  //     headers: { Authorization: `Bearer ${getTokenFromLocalStorage()}` },
+  //   }
+  //   )
+  //   const newRecordId = data._id
+  //   Navigate(`/records/${newRecordId}`)
+  // } catch (err){
+  //   console.log(err.response.data)
+  //   setErrors(err.response.data)
+  // }
   const handleSubmit = async (event) => {
     event.preventDefault()
     
     try {
-      const { data } = await axios.post('/api/records', newRecord, {
+      const { data } = await axios.post('/api/records/', newRecord, {
         headers: { Authorization: `Bearer ${getTokenFromLocalStorage()}` },
       }
       )
       const newRecordId = data._id
       Navigate(`/records/${newRecordId}`)
     } catch (err){
-      console.log(err.response.data.errors)
-      setErrors(err.response.data.errors)
+      console.log(err.response.data)
+      setErrors(err.response.data)
     }
   }
 

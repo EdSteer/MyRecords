@@ -6,7 +6,7 @@ import RecordIndex from './components/RecordIndex'
 import RecordShow from './components/RecordShow'
 import Register from './components/Register'
 import Login from './components/Login'
-import AddRecord from './components/AddRecord'
+import AddandUpdate from './components/AddandUpdate'
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
         <Route exact path="/records/:id" element={<RecordShow/>}/>
         <Route exact path="/register" element={<Register/>}/>
         <Route exact path="/login" element={<Login/>}/>
-        <Route exact path="/add" element={<AddRecord/>}/>
+        <Route exact path="/add" element={<AddandUpdate/>}/>
 
         
       </Routes>
