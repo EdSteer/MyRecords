@@ -3,9 +3,9 @@ import React from 'react'
 const Home = () => {
 
   return (
-    <section className="hero is-fullheight is-warning">
+    <section className="hero is-fullheight is-warning is-full-mobile">
       <div className="hero-body">
-        <h1 className="titlewords is-flex-desktop">Collecting old records is a habit.... <a className="has-text-danger has-text-weight-bold" href="/Register">Register</a> or <a className="has-text-danger has-text-weight-bold" href="/Login">Login</a> to see your collection</h1>        
+        <h1 className="titlewords is-flex-desktop">Buying old records is a habit....&nbsp; <a className="has-text-danger has-text-weight-bold" href="/Register">Register</a>&nbsp; and &nbsp; <a className="has-text-danger has-text-weight-bold" href="/Login">Login</a> &nbsp;to set up your collection</h1>        
         
         
       </div>

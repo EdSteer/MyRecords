@@ -75,8 +75,8 @@ const AddandUpdate = () => {
       <form className='form' onSubmit={handleSubmit}>
         <div className="field is-vertical">
           <div className='is-flex is-justify-content-space-around	'>
-            <div className='subtitle is-3' id='formtitle'>Add Record</div>
-            <button className="button" type='submit' id='addRecordSubmit' >
+            <div className='subtitle is-3 mt-5' id='formtitle'>Add Record</div>
+            <button className="button mt-5" type='submit' id='addRecordSubmit' >
             Post Record
             </button>
           </div>

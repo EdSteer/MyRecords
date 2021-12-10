@@ -7,6 +7,7 @@ import RecordShow from './components/RecordShow'
 import Register from './components/Register'
 import Login from './components/Login'
 import AddandUpdate from './components/AddandUpdate'
+// import UserProfile from './components/UserProfile'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route exact path="/register" element={<Register/>}/>
         <Route exact path="/login" element={<Login/>}/>
         <Route exact path="/add" element={<AddandUpdate/>}/>
+        {/* <Route exact path='/profile' element={<UserProfile/>} /> */}
 
         
       </Routes>

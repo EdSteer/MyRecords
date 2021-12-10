@@ -69,7 +69,7 @@ function Login() {
               {error && <p className="help is-danger">Sorry, your username or password are incorrect</p>}
             </div>
             <div className="field">
-              <button type="submit" className="button is-fullwidth is-warning">Log Me In!</button>
+              <button type="submit" className="button is-fullwidth is-warning">Log In</button>
             </div>
           </form>
         </div>
